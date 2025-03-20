@@ -1,0 +1,46 @@
+{
+  "consultas": [
+    {
+      "id": 1,
+      "codigo": "CON001",
+      "data": "2023-10-01",
+      "chaveConsulta": "CHV123456",
+      "cpf": "123.456.789-00",
+      "celular": "(11) 98765-4321",
+      "email": "cliente1@example.com",
+      "resultados": {
+        "status": "Concluído",
+        "descricao": "Consulta realizada com sucesso."
+      },
+      "link": "https://api.fake.com/consultas/1"
+    },
+    {
+      "id": 2,
+      "codigo": "CON002",
+      "data": "2023-10-02",
+      "chaveConsulta": "CHV654321",
+      "cpf": "987.654.321-00",
+      "celular": "(21) 91234-5678",
+      "email": "cliente2@example.com",
+      "resultados": {
+        "status": "Pendente",
+        "descricao": "Aguardando processamento."
+      },
+      "link": "https://api.fake.com/consultas/2"
+    },
+    {
+      "id": 3,
+      "codigo": "CON003",
+      "data": "2023-10-03",
+      "chaveConsulta": "CHV789012",
+      "cpf": "456.789.123-00",
+      "celular": "(31) 99876-5432",
+      "email": "cliente3@example.com",
+      "resultados": {
+        "status": "Erro",
+        "descricao": "Falha na consulta."
+      },
+      "link": "https://api.fake.com/consultas/3"
+    }
+  ]
+}
